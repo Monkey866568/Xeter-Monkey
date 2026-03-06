@@ -2,8 +2,7 @@ local _ENV = (getgenv or getrenv or getfenv)()
 local CURRENT_VERSION = _ENV.Version or "V3"
 
 local Versions = {
-	V1 = "loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
-    ",
+	V1 = "https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua",
 	V2 = "https://raw.githubusercontent.com/luraobermeyer-jpg/redzhub/refs/heads/main/redzhub.lua.txt",
 	V3 = "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua",
 	V4 = "https://github.com/TlDinhKhoi/Xeter/raw/refs/heads/main/Version/V4.lua",
